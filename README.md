@@ -1,2 +1,3 @@
-# nova-select-country-code
-Country code select field for Laravel Nova
+# Laravel Nova Country Code Select Field
+
+A country code select field for Laravel Nova.

@@ -1,0 +1,32 @@
+{
+    "name": "tapp/select-country-code",
+    "description": "A Laravel Nova select country code field.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "field",
+        "select",
+        "country code"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tapp\\SelectCountryCode\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tapp\\SelectCountryCode\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
