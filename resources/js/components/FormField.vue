@@ -22,9 +22,6 @@
           </span>
         </template>
         <template v-slot:selected-option="option">
-          <span v-if="option.iso_code">
-            <img class="pr-2 h-4 w-8 align-middle" :src="field.iconsDirectory + '/' + option.iso_code.toLowerCase().trim() + '.' + field.iconsFormat">
-          </span>
           <span>
             {{ option.label }}
             <span class="text-xs">
