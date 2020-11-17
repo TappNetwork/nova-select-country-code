@@ -2,9 +2,6 @@
   <panel-item :field="field">
     <div slot="value" v-if="field.value">
       <span>
-        <span v-if="selected.iso_code">
-          <img class="pr-2 h-4 w-8 align-middle" :src="field.iconsDirectory + '/' + selected.iso_code.toLowerCase().trim() + '.' + field.iconsFormat">
-        </span>
         <span class="align-middle">
           {{ selected.label }}
         </span>
