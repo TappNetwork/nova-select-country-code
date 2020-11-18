@@ -23,7 +23,9 @@
         </template>
         <template v-slot:selected-option="option">
           <span>
-            {{ option.label }}
+            <span v-if="option.country_code === '+1'">United States and Canada</span>
+            <span v-else-if="option.country_code === '+7'">Russia and Kazakhstan</span>
+            <span v-else>{{ option.label }}</span>
             <span class="text-xs">
               ({{ option.country_code }})
             </span>

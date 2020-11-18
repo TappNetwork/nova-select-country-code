@@ -2,7 +2,13 @@
   <panel-item :field="field">
     <div slot="value" v-if="field.value">
       <span>
-        <span class="align-middle">
+        <span v-if="selected.country_code === '+1'" class="align-middle">
+          United States and Canada
+        </span>
+        <span v-else-if="selected.country_code === '+7'" class="align-middle">
+          Russia and Kazakhstan
+        </span>
+        <span v-else class="align-middle">
           {{ selected.label }}
         </span>
         <span class="text-xs align-middle">
