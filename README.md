@@ -11,6 +11,12 @@ A country code select field for Laravel Nova.
 ### Detail
 ![select-country-code-detail](https://raw.githubusercontent.com/TappNetwork/nova-select-country-code/main/docs/select-country-code-detail.png)
 
+### Installation
+
+```bash
+composer require tapp/select-country-code
+```
+
 ## Usage
 
 Add the field to your resource in the ```fields``` method:
