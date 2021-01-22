@@ -11,10 +11,18 @@ A country code select field for Laravel Nova.
 ### Detail
 ![select-country-code-detail](https://raw.githubusercontent.com/TappNetwork/nova-select-country-code/main/docs/select-country-code-detail.png)
 
-### Installation
+## Installation
+
+Install using Composer:
 
 ```bash
 composer require tapp/select-country-code
+```
+
+Publish the flag icons assets to the public project directory:
+
+```bash
+php artisan vendor:publish --tag=public --force
 ```
 
 ## Usage
