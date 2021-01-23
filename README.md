@@ -81,3 +81,7 @@ SelectCountryCode::make(__('Country Code'))
 SVG of the countries' flags by:
 - https://github.com/tabler/tabler
 - https://github.com/hjnilsson/country-flags
+
+## Leveraged package
+
+- [Vue Select](https://vue-select.org)
