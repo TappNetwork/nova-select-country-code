@@ -100,6 +100,7 @@ class SelectCountryCode extends Field
         ['label' => 'Guyana', 'country_code' => '+592', 'iso_code' => 'GY'],
         ['label' => 'Haiti', 'country_code' => '+509', 'iso_code' => 'HT'],
         ['label' => 'Honduras', 'country_code' => '+504', 'iso_code' => 'HN'],
+        ['label' => 'Hong Kong', 'country_code' => '+852', 'iso_code' => 'HK'],
         ['label' => 'Hungary', 'country_code' => '+36', 'iso_code' => 'HU'],
         ['label' => 'Iceland', 'country_code' => '+354', 'iso_code' => 'IS'],
         ['label' => 'India', 'country_code' => '+91', 'iso_code' => 'IN'],
