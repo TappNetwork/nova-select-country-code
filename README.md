@@ -1,5 +1,9 @@
 # Laravel Nova Country Code Select Field
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/tapp/nova-select-country-code.svg?style=flat-square)](https://packagist.org/packages/tapp/nova-select-country-code)
+![Code Style Action Status - Pint](https://github.com/TappNetwork/nova-select-country-code/actions/workflows/pint.yml/badge.svg)
+[![Total Downloads](https://img.shields.io/packagist/dt/tapp/nova-select-country-code.svg?style=flat-square)](https://packagist.org/packages/tapp/nova-select-country-code)
+
 A country code select field for Laravel Nova.
 
 ## Appearance
